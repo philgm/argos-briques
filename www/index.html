@@ -26,17 +26,26 @@ under the License.
         <title>Briques</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Le Device is Ready</p>
+        <div data-role="page" id="home">
+
+            <div data-role="header">
+                <h1>Briques pour Argos and Co</h1>
             </div>
+
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li data-role="list-divider">PhoneGap</li>
+                    <li><a href="accelerometer.html">Accelerometer</a></li>
+                    <li><a href="camera.html">Camera</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="device.html">Device</a></li>
+                    <li><a href="network.html">Network</a></li>
+                    <li><a href="notification.html">Notification</a></li>
+                    <li data-role="list-divider">HTML 5</li>
+                    <li><a href="geolocation.html">Geolocation</a></li>
+                </ul>
+            </div>
+
         </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
     </body>
 </html>
